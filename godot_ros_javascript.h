@@ -3,10 +3,10 @@
 #ifndef GODOT_ROS_JAVASCRIPT_H
 #define GODOT_ROS_JAVASCRIPT_H
 
-#include "core/object/ref_counted.h"
+#include "core/reference.h"
 
-class GodotRosJavascript : public RefCounted {
-    GDCLASS(GodotRosJavascript, RefCounted);
+class GodotRosJavascript : public Reference {
+    GDCLASS(GodotRosJavascript, Reference);
 
     int count;
 
@@ -21,4 +21,4 @@ public:
     GodotRosJavascript();
 };
 
-#endif // GODOT_ROS_JAVASCRIPT
+#endif // GODOT_ROS_JAVASCRIPT_H

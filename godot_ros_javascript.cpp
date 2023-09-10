@@ -1,4 +1,4 @@
-/* GodotRosJavascript.cpp */
+/* godot_ros_javascript.cpp */
 
 #include "godot_ros_javascript.h"
 

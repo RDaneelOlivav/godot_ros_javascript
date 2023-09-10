@@ -1,7 +1,5 @@
 /* register_types.h */
 
-#include "modules/register_module_types.h"
-
-void initialize_godot_ros_javascript_module(ModuleInitializationLevel p_level);
-void uninitialize_godot_ros_javascript_module(ModuleInitializationLevel p_level);
+void register_godot_ros_javascript_types();
+void unregister_godot_ros_javascript_types();
 /* yes, the word in the middle must be the same as the module folder name */
